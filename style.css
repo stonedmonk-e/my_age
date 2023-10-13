@@ -1,0 +1,55 @@
+body {
+    background-color: #18181B;
+    color: #A1A1AA;
+    font-family: 'Inter', Arial;
+    min-height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.015);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+    padding: 56px 16px 16px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    position: absolute;
+    transition: box-shadow 0.25s;
+}
+
+.icon {
+    display: table;
+    padding: 8px;
+}
+
+svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    transform: translateZ(0);
+    color: #D4D4D8;
+    transition: color 0.25s;
+}
+
+h4 {
+    margin: 12px 0 4px 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2;
+    color: #FFFFFF;
+}
+
+#age_count {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #A1A1AA;
+}
+
+.background {
+    border-radius: inherit;
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+}
